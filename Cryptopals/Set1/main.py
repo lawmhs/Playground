@@ -26,23 +26,38 @@ if __name__ == '__main__':
 	if challenge == '2':
 	# Fixed XOR, write a function that takes two equal-length buffers and produces their XOR combination
 
-		string1 = '1c0111001f010100061a024b53535009181c'
-		string2 = '686974207468652062756c6c277320657965'
+		s1 = '1c0111001f010100061a024b53535009181c'
+		s2 = '686974207468652062756c6c277320657965'
 		
-		result = q2.xor(string1, string2, 'hex')
+		raw1 = codecs.decode(s1, 'hex')
+		a = bytearray()
+		a.extend(map(ord, raw1))
+	
+		raw2 = codecs.decode(s2, 'hex')
+		b = bytearray()
+		b.extend(map(ord, raw2))
+		
+		result = codecs.encode(q2.xor(a, b), 'hex')
 		print(result)
 		
 		
 	if challenge == '3':
 		string = '1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736'
 		score = 0
-		raw = codecs.decode(string, 'hex')
-		rawarray = bytearray()
-		rawarray.extend(map(ord, raw))
-		result = bytearray(len(rawarray))
 		
-		#for key in range(0, 15):
-			#for i in range(len(rawarray)):
+		raw = codecs.decode(string, 'hex')
+		result = []
+		#rawarray = bytearray()
+		#rawarray.extend(map(ord, raw))
+		#result = bytearray(len(rawarray))
+		
+		for key in range(0, 15):
+			key = str(key)
+			key = [key, key]
+			key = ''.join(key)
+			for i in range(len(string)):
+				
+				
 				
 				
 			
