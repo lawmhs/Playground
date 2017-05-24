@@ -51,11 +51,15 @@ if __name__ == '__main__':
 		#rawarray.extend(map(ord, raw))
 		#result = bytearray(len(rawarray))
 		
-		for key in range(0, 15):
+		for key in range(0, 16):
 			key = str(key)
 			key = [key, key]
 			key = ''.join(key)
-			for i in range(len(string)):
+			# even length key
+			print(key)
+			print(len(key))
+			#for i in range(len(string)):
+				
 				
 				
 				
