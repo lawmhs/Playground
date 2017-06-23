@@ -10,3 +10,6 @@ encrypted = '1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b373
 # encrypted is encoded by a single character
 
 print(binascii.unhexlify(encrypted))
+
+# check out the link:
+# https://stackoverflow.com/questions/41819489/single-byte-xor-cipher-python
