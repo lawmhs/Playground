@@ -11,5 +11,16 @@ encrypted = '1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b373
 
 print(binascii.unhexlify(encrypted))
 
-# check out the link:
-# https://stackoverflow.com/questions/41819489/single-byte-xor-cipher-python
+raw = binascii.unhexlify(encrypted)
+'''
+key = max(raw, key=raw.count) ^ ord(' ')
+print(key, ''.join(chr(num ^ key) for num in raw))
+'''
+
+# the above works by counting spaces, from stack overflow
+
+# trying to do ETAOIN SHRDLU myself:
+
+strings = (''.join(chr(num ^ key) for num in raw) for key in range(256))
+max(strings, key=lambda s: s.count('e'))
+
