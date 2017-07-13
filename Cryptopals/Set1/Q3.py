@@ -3,7 +3,6 @@ import numpy as np
 import scipy as np
 import argparse
 import codecs
-import Q2 as q2
 import binascii
 
 encrypted = '1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736'
@@ -12,15 +11,32 @@ encrypted = '1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b373
 print(binascii.unhexlify(encrypted))
 
 raw = binascii.unhexlify(encrypted)
-'''
-key = max(raw, key=raw.count) ^ ord(' ')
-print(key, ''.join(chr(num ^ key) for num in raw))
-'''
+# trying to do "ETAOIN SHRDLU" myself:
 
-# the above works by counting spaces, from stack overflow
+score = 0
+ret = ''
 
-# trying to do ETAOIN SHRDLU myself:
+for key in range(256):
+	strings = (''.join(chr(num ^ key) for num in raw))
+	# formulate 
+	
+	# count ETAOIN and ' '
+	
+	e = strings.count('e', 0, len(strings))
+	t = strings.count('t', 0, len(strings))
+	a = strings.count('a', 0, len(strings))
+	o = strings.count('o', 0, len(strings))
+	i = strings.count('i', 0, len(strings))
+	n = strings.count('n', 0, len(strings))
+	space = strings.count(' ', 0, len(strings))
+	
+	testscore = e + t + a + i + o + n + space
+		
+	if (testscore > score):
+		score = testscore
+		ret = strings
+		
+print(ret)
+		
 
-strings = (''.join(chr(num ^ key) for num in raw) for key in range(256))
-max(strings, key=lambda s: s.count('e'))
 
