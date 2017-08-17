@@ -1,6 +1,6 @@
 import sys
 import numpy as np
-import scipy as np
+import scipy as sp
 import argparse
 import codecs
 import binascii
