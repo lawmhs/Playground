@@ -4,6 +4,7 @@ import scipy as sp
 import argparse
 import codecs
 import binascii
+import utils as util
 
 # this file is the function that detects the single key that decodes things
 # will take in raw bytes
@@ -18,15 +19,7 @@ def singleKeyXorDecode(encrypted):
 	
 		# count ETAOIN and ' '
 	
-		e = strings.count('e', 0, len(strings))
-		t = strings.count('t', 0, len(strings))
-		a = strings.count('a', 0, len(strings))
-		o = strings.count('o', 0, len(strings))
-		i = strings.count('i', 0, len(strings))
-		n = strings.count('n', 0, len(strings))
-		space = strings.count(' ', 0, len(strings))
-	
-		testscore = e + t + a + i + o + n + space
+		testscore = util.etaoinScore(strings)
 		
 		if (testscore > score):
 			score = testscore

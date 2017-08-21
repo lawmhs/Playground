@@ -5,43 +5,28 @@ import argparse
 import codecs
 import binascii
 import Q3 as q3
+import utils as util
 
-txtfile = 'Q4txt.txt'
-text = open(txtfile, 'r')
-lines = text.readlines()
-
-#print(lines[10])
-# this will print the 10th line. From here we can tell that readlines()
-# arranges the text into an array.
-
-score = 0
-
-for line in lines:
-	line = line.strip()
-	# this gets rid of trailing newline at the end of the file.
-	# this will strip the string of it.
-	# print(line)
-	raw = binascii.unhexlify(line)
-	# print(raw)
-	res = q3.singleKeyXorDecode(raw)
+# takes in a ciphertext block with one encrypted line
+# and detects it
+# requires that each line be separated
+def detectSingleBitXor(ciphertext):
 	
-	e = res.count('e', 0, len(res))
-	t = res.count('t', 0, len(res))
-	a = res.count('a', 0, len(res))
-	o = res.count('o', 0, len(res))
-	i = res.count('i', 0, len(res))
-	n = res.count('n', 0, len(res))
-	space = res.count(' ', 0, len(res))
+	score = 0
 	
-	testscore = e + t + a + i + o + n + space
+	for line in ciphertext:
+		line = line.strip()
+		raw = binascii.unhexlify(line)
+		res = q3.singleKeyXorDecode(raw)
 		
-	if (testscore > score):
-		score = testscore
-		ret = res
+		testscore = util.etaoinScore(res)
 		
-print(ret)
-
-
+		if (testscore > score):
+			score = testscore
+			ret = res
+	
+	return ret
+		
 
 
 
