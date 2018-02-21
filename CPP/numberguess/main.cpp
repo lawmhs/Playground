@@ -27,8 +27,11 @@ int main() {
 		cin >> higher;
 		
 		higher = higher - lower + 1;
+		// the -lower component is to make sure that when we linearly shift our randomly generated answer
+		// that we don't don't end up overshooting the max
 		answer = rand()  % higher + lower;
 		guess = answer + 1;
+		// make sure guess != answer at start of game
 		
 		// actual game loop
 		
