@@ -1,0 +1,1 @@
+/home/user/Documents/Projects/Playground/rust/lists/target/debug/lists-dfb39b3e7be2b188: /home/user/Documents/Projects/Playground/rust/lists/src/first.rs /home/user/Documents/Projects/Playground/rust/lists/src/lib.rs
