@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10687217-d7a2-4eb6-bec0-e07376e4f4c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../CPP/RandomWalks/a.out" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../CPP/RandomWalks/main.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../CPP/foolaround/a.out" beforeDir="false" />
@@ -13,239 +11,25 @@
       <change beforePath="$PROJECT_DIR$/../../../CPP/helloworld/main" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../CPP/numberguess/a.out" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../CPP/numberguess/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../py/shirtpred/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../py/shirtpred/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/.idea/guessing_game.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../guessing_game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/Cargo.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/Cargo.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/src/main.rs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/.rustc_info.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/.cargo-lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/.fingerprint/guessing_game-734aec14a6bd7af3/bin-guessing_game-734aec14a6bd7af3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/.fingerprint/guessing_game-734aec14a6bd7af3/bin-guessing_game-734aec14a6bd7af3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/.fingerprint/guessing_game-734aec14a6bd7af3/dep-bin-guessing_game-734aec14a6bd7af3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/.fingerprint/guessing_game-c8104b19b6b47a73/bin-guessing_game-c8104b19b6b47a73" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/.fingerprint/guessing_game-c8104b19b6b47a73/bin-guessing_game-c8104b19b6b47a73.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/.fingerprint/guessing_game-c8104b19b6b47a73/dep-bin-guessing_game-c8104b19b6b47a73" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/.fingerprint/libc-242412c9b9279256/dep-lib-libc-242412c9b9279256" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/.fingerprint/libc-242412c9b9279256/lib-libc-242412c9b9279256" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/.fingerprint/libc-242412c9b9279256/lib-libc-242412c9b9279256.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/.fingerprint/rand-27db151bc8c9c188/dep-lib-rand-27db151bc8c9c188" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/.fingerprint/rand-27db151bc8c9c188/lib-rand-27db151bc8c9c188" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/.fingerprint/rand-27db151bc8c9c188/lib-rand-27db151bc8c9c188.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/.fingerprint/rand-ed8694e840dda4aa/dep-lib-rand-ed8694e840dda4aa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/.fingerprint/rand-ed8694e840dda4aa/lib-rand-ed8694e840dda4aa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/.fingerprint/rand-ed8694e840dda4aa/lib-rand-ed8694e840dda4aa.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/deps/guessing_game-734aec14a6bd7af3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/deps/guessing_game-734aec14a6bd7af3.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/deps/guessing_game-c8104b19b6b47a73" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/deps/guessing_game-c8104b19b6b47a73.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/deps/libc-242412c9b9279256.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/deps/liblibc-242412c9b9279256.rlib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/deps/librand-27db151bc8c9c188.rlib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/deps/librand-ed8694e840dda4aa.rlib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/deps/rand-27db151bc8c9c188.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/deps/rand-ed8694e840dda4aa.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/guessing_game" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/guessing_game.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-2e5ehxtnvv2fw/s-f6hix88wx2-1ep8c8u-25lbtxjnlict2/1eximff4q74hbfzb.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-2e5ehxtnvv2fw/s-f6hix88wx2-1ep8c8u-25lbtxjnlict2/1jv3yanjdvug6u31.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-2e5ehxtnvv2fw/s-f6hix88wx2-1ep8c8u-25lbtxjnlict2/1n5gxdffz7rv2fre.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-2e5ehxtnvv2fw/s-f6hix88wx2-1ep8c8u-25lbtxjnlict2/1q028wwixlhil230.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-2e5ehxtnvv2fw/s-f6hix88wx2-1ep8c8u-25lbtxjnlict2/1qncoz3j063abeih.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-2e5ehxtnvv2fw/s-f6hix88wx2-1ep8c8u-25lbtxjnlict2/1rzi7ochmclyqwar.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-2e5ehxtnvv2fw/s-f6hix88wx2-1ep8c8u-25lbtxjnlict2/238l5xx1pud3pu42.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-2e5ehxtnvv2fw/s-f6hix88wx2-1ep8c8u-25lbtxjnlict2/23txj9ixbi79rml9.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-2e5ehxtnvv2fw/s-f6hix88wx2-1ep8c8u-25lbtxjnlict2/24eijj7zjjtjdcel.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-2e5ehxtnvv2fw/s-f6hix88wx2-1ep8c8u-25lbtxjnlict2/2gu4lbrygk614qjs.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-2e5ehxtnvv2fw/s-f6hix88wx2-1ep8c8u-25lbtxjnlict2/2jqbyeqqzek7w8mb.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-2e5ehxtnvv2fw/s-f6hix88wx2-1ep8c8u-25lbtxjnlict2/2qfmk4m0eqprz83o.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-2e5ehxtnvv2fw/s-f6hix88wx2-1ep8c8u-25lbtxjnlict2/2smwkxax7gkll5w9.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-2e5ehxtnvv2fw/s-f6hix88wx2-1ep8c8u-25lbtxjnlict2/3a32oqlvwx58ndq.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-2e5ehxtnvv2fw/s-f6hix88wx2-1ep8c8u-25lbtxjnlict2/3demvwbde41u3liu.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-2e5ehxtnvv2fw/s-f6hix88wx2-1ep8c8u-25lbtxjnlict2/3gc4qlawry7zb8fq.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-2e5ehxtnvv2fw/s-f6hix88wx2-1ep8c8u-25lbtxjnlict2/3p7mtgts2vznkfj4.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-2e5ehxtnvv2fw/s-f6hix88wx2-1ep8c8u-25lbtxjnlict2/45t9oct9uys6c7ew.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-2e5ehxtnvv2fw/s-f6hix88wx2-1ep8c8u-25lbtxjnlict2/4dcp8s510nc24yzu.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-2e5ehxtnvv2fw/s-f6hix88wx2-1ep8c8u-25lbtxjnlict2/4e8gvmnftsg7fmww.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-2e5ehxtnvv2fw/s-f6hix88wx2-1ep8c8u-25lbtxjnlict2/4guseoykg0aqyaae.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-2e5ehxtnvv2fw/s-f6hix88wx2-1ep8c8u-25lbtxjnlict2/4k9qn7xgsw644856.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-2e5ehxtnvv2fw/s-f6hix88wx2-1ep8c8u-25lbtxjnlict2/4towh1634tmydymd.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-2e5ehxtnvv2fw/s-f6hix88wx2-1ep8c8u-25lbtxjnlict2/4wflwo1nmd1jrsci.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-2e5ehxtnvv2fw/s-f6hix88wx2-1ep8c8u-25lbtxjnlict2/591toq0twhpfxjqz.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-2e5ehxtnvv2fw/s-f6hix88wx2-1ep8c8u-25lbtxjnlict2/6jdw8ep3jtmf8bq.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-2e5ehxtnvv2fw/s-f6hix88wx2-1ep8c8u-25lbtxjnlict2/6pfl3u1va2rnnjr.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-2e5ehxtnvv2fw/s-f6hix88wx2-1ep8c8u-25lbtxjnlict2/dep-graph.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-2e5ehxtnvv2fw/s-f6hix88wx2-1ep8c8u-25lbtxjnlict2/dxmgfg16vhauesi.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-2e5ehxtnvv2fw/s-f6hix88wx2-1ep8c8u-25lbtxjnlict2/query-cache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-2e5ehxtnvv2fw/s-f6hix88wx2-1ep8c8u-25lbtxjnlict2/work-products.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-2e5ehxtnvv2fw/s-f6hix88wx2-1ep8c8u.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-gq2f75e5gbyo/s-f6hkecediv-et05eu-2n87l2k9plyyp/123os1x2hzs2tmkv.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-gq2f75e5gbyo/s-f6hkecediv-et05eu-2n87l2k9plyyp/16xqzheac7sns7k9.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-gq2f75e5gbyo/s-f6hkecediv-et05eu-2n87l2k9plyyp/1nbgc62izr4b6ltm.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-gq2f75e5gbyo/s-f6hkecediv-et05eu-2n87l2k9plyyp/1r4rgj6mbspeyt6e.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-gq2f75e5gbyo/s-f6hkecediv-et05eu-2n87l2k9plyyp/25uojhddjginm8r1.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-gq2f75e5gbyo/s-f6hkecediv-et05eu-2n87l2k9plyyp/2j33vv8kxxrs9oy.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-gq2f75e5gbyo/s-f6hkecediv-et05eu-2n87l2k9plyyp/2nqzrif11zz7n9sg.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-gq2f75e5gbyo/s-f6hkecediv-et05eu-2n87l2k9plyyp/2qnnxphqyaojy7zy.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-gq2f75e5gbyo/s-f6hkecediv-et05eu-2n87l2k9plyyp/2ubbsl61bgq56a6z.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-gq2f75e5gbyo/s-f6hkecediv-et05eu-2n87l2k9plyyp/2w1ef8ifx2e47xvz.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-gq2f75e5gbyo/s-f6hkecediv-et05eu-2n87l2k9plyyp/2wdspfdvijn5o4q9.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-gq2f75e5gbyo/s-f6hkecediv-et05eu-2n87l2k9plyyp/2y0myddh11496rp6.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-gq2f75e5gbyo/s-f6hkecediv-et05eu-2n87l2k9plyyp/31osqkceeb1lytgi.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-gq2f75e5gbyo/s-f6hkecediv-et05eu-2n87l2k9plyyp/340ttqx2p6717jbk.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-gq2f75e5gbyo/s-f6hkecediv-et05eu-2n87l2k9plyyp/3ipsohgig15z3ub2.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-gq2f75e5gbyo/s-f6hkecediv-et05eu-2n87l2k9plyyp/3s4mu50h4z75ruv6.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-gq2f75e5gbyo/s-f6hkecediv-et05eu-2n87l2k9plyyp/3s63tuspro3fariw.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-gq2f75e5gbyo/s-f6hkecediv-et05eu-2n87l2k9plyyp/3uzkymi2t5wovjx4.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-gq2f75e5gbyo/s-f6hkecediv-et05eu-2n87l2k9plyyp/42pmqcir9gng01ne.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-gq2f75e5gbyo/s-f6hkecediv-et05eu-2n87l2k9plyyp/44x16w02jbgbyb4n.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-gq2f75e5gbyo/s-f6hkecediv-et05eu-2n87l2k9plyyp/45l1q2btieqxdowp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-gq2f75e5gbyo/s-f6hkecediv-et05eu-2n87l2k9plyyp/4tym3dmaabw8ylz6.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-gq2f75e5gbyo/s-f6hkecediv-et05eu-2n87l2k9plyyp/4wg274cmq7iwduv6.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-gq2f75e5gbyo/s-f6hkecediv-et05eu-2n87l2k9plyyp/50copw3d56c9px2q.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-gq2f75e5gbyo/s-f6hkecediv-et05eu-2n87l2k9plyyp/51ierr0kr27lstk6.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-gq2f75e5gbyo/s-f6hkecediv-et05eu-2n87l2k9plyyp/51shld9n27wt3vxd.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-gq2f75e5gbyo/s-f6hkecediv-et05eu-2n87l2k9plyyp/53hp01x8vp92kli8.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-gq2f75e5gbyo/s-f6hkecediv-et05eu-2n87l2k9plyyp/5ertvohz9fntoyj5.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-gq2f75e5gbyo/s-f6hkecediv-et05eu-2n87l2k9plyyp/7m1oe5jmmzv8swa.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-gq2f75e5gbyo/s-f6hkecediv-et05eu-2n87l2k9plyyp/dep-graph.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-gq2f75e5gbyo/s-f6hkecediv-et05eu-2n87l2k9plyyp/g18xbtyuzgyt63s.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-gq2f75e5gbyo/s-f6hkecediv-et05eu-2n87l2k9plyyp/iasn93d5ay89zt1.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-gq2f75e5gbyo/s-f6hkecediv-et05eu-2n87l2k9plyyp/jd2ogagxbtc0hyi.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-gq2f75e5gbyo/s-f6hkecediv-et05eu-2n87l2k9plyyp/qex2p9ucepggcia.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-gq2f75e5gbyo/s-f6hkecediv-et05eu-2n87l2k9plyyp/query-cache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-gq2f75e5gbyo/s-f6hkecediv-et05eu-2n87l2k9plyyp/work-products.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../guessing_game/target/debug/incremental/guessing_game-gq2f75e5gbyo/s-f6hkecediv-et05eu.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/Cargo.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/Cargo.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/src/main.rs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/.rustc_info.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.cargo-lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.fingerprint/aho-corasick-9f9e362c13087d09/dep-lib-aho_corasick-9f9e362c13087d09" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.fingerprint/aho-corasick-9f9e362c13087d09/lib-aho_corasick-9f9e362c13087d09" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.fingerprint/aho-corasick-9f9e362c13087d09/lib-aho_corasick-9f9e362c13087d09.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.fingerprint/hello_world-c9b45d29fca25e96/bin-hello_world-c9b45d29fca25e96" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.fingerprint/hello_world-c9b45d29fca25e96/bin-hello_world-c9b45d29fca25e96.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.fingerprint/hello_world-c9b45d29fca25e96/dep-bin-hello_world-c9b45d29fca25e96" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.fingerprint/hello_world-d120cd7dd5e2ad3e/dep-test-bin-hello_world-d120cd7dd5e2ad3e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.fingerprint/hello_world-d120cd7dd5e2ad3e/test-bin-hello_world-d120cd7dd5e2ad3e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.fingerprint/hello_world-d120cd7dd5e2ad3e/test-bin-hello_world-d120cd7dd5e2ad3e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.fingerprint/hello_world-f8eef19fd462cc1f/bin-hello_world-f8eef19fd462cc1f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.fingerprint/hello_world-f8eef19fd462cc1f/bin-hello_world-f8eef19fd462cc1f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.fingerprint/hello_world-f8eef19fd462cc1f/dep-bin-hello_world-f8eef19fd462cc1f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.fingerprint/kernel32-sys-6d713ea19e98ff7c/dep-lib-kernel32-6d713ea19e98ff7c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.fingerprint/kernel32-sys-6d713ea19e98ff7c/lib-kernel32-6d713ea19e98ff7c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.fingerprint/kernel32-sys-6d713ea19e98ff7c/lib-kernel32-6d713ea19e98ff7c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.fingerprint/kernel32-sys-8946b71e6bf32106/build" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.fingerprint/kernel32-sys-8946b71e6bf32106/build.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.fingerprint/kernel32-sys-9a4d36b8e7f144ec/build-script-build_script_build-9a4d36b8e7f144ec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.fingerprint/kernel32-sys-9a4d36b8e7f144ec/build-script-build_script_build-9a4d36b8e7f144ec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.fingerprint/kernel32-sys-9a4d36b8e7f144ec/dep-build-script-build_script_build-9a4d36b8e7f144ec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.fingerprint/libc-242412c9b9279256/dep-lib-libc-242412c9b9279256" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.fingerprint/libc-242412c9b9279256/lib-libc-242412c9b9279256" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.fingerprint/libc-242412c9b9279256/lib-libc-242412c9b9279256.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.fingerprint/memchr-b568302ca880380a/dep-lib-memchr-b568302ca880380a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.fingerprint/memchr-b568302ca880380a/lib-memchr-b568302ca880380a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.fingerprint/memchr-b568302ca880380a/lib-memchr-b568302ca880380a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.fingerprint/regex-580cae6f31c90181/dep-lib-regex-580cae6f31c90181" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.fingerprint/regex-580cae6f31c90181/lib-regex-580cae6f31c90181" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.fingerprint/regex-580cae6f31c90181/lib-regex-580cae6f31c90181.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.fingerprint/regex-syntax-84d17f992650ca63/dep-lib-regex_syntax-84d17f992650ca63" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.fingerprint/regex-syntax-84d17f992650ca63/lib-regex_syntax-84d17f992650ca63" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.fingerprint/regex-syntax-84d17f992650ca63/lib-regex_syntax-84d17f992650ca63.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.fingerprint/thread-id-9a793fd693e1cee6/dep-lib-thread_id-9a793fd693e1cee6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.fingerprint/thread-id-9a793fd693e1cee6/lib-thread_id-9a793fd693e1cee6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.fingerprint/thread-id-9a793fd693e1cee6/lib-thread_id-9a793fd693e1cee6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.fingerprint/thread_local-520657b7e10b81db/dep-lib-thread_local-520657b7e10b81db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.fingerprint/thread_local-520657b7e10b81db/lib-thread_local-520657b7e10b81db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.fingerprint/thread_local-520657b7e10b81db/lib-thread_local-520657b7e10b81db.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.fingerprint/time-6a1207c6384ff8e3/dep-lib-time-6a1207c6384ff8e3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.fingerprint/time-6a1207c6384ff8e3/lib-time-6a1207c6384ff8e3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.fingerprint/time-6a1207c6384ff8e3/lib-time-6a1207c6384ff8e3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.fingerprint/utf8-ranges-5ffd71a31cc37274/dep-lib-utf8_ranges-5ffd71a31cc37274" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.fingerprint/utf8-ranges-5ffd71a31cc37274/lib-utf8_ranges-5ffd71a31cc37274" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.fingerprint/utf8-ranges-5ffd71a31cc37274/lib-utf8_ranges-5ffd71a31cc37274.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.fingerprint/winapi-ba8b180ff88f95bd/dep-lib-winapi-ba8b180ff88f95bd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.fingerprint/winapi-ba8b180ff88f95bd/lib-winapi-ba8b180ff88f95bd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.fingerprint/winapi-ba8b180ff88f95bd/lib-winapi-ba8b180ff88f95bd.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.fingerprint/winapi-build-da7d0d523e204c02/dep-lib-build-da7d0d523e204c02" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.fingerprint/winapi-build-da7d0d523e204c02/lib-build-da7d0d523e204c02" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/.fingerprint/winapi-build-da7d0d523e204c02/lib-build-da7d0d523e204c02.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/build/kernel32-sys-8946b71e6bf32106/output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/build/kernel32-sys-8946b71e6bf32106/root-output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/build/kernel32-sys-8946b71e6bf32106/stderr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/build/kernel32-sys-9a4d36b8e7f144ec/build-script-build" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/build/kernel32-sys-9a4d36b8e7f144ec/build_script_build-9a4d36b8e7f144ec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/build/kernel32-sys-9a4d36b8e7f144ec/build_script_build-9a4d36b8e7f144ec.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/deps/aho_corasick-9f9e362c13087d09.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/deps/build-da7d0d523e204c02.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/deps/hello_world-c9b45d29fca25e96" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/deps/hello_world-c9b45d29fca25e96.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/deps/hello_world-d120cd7dd5e2ad3e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/deps/hello_world-d120cd7dd5e2ad3e.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/deps/hello_world-f8eef19fd462cc1f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/deps/hello_world-f8eef19fd462cc1f.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/deps/kernel32-6d713ea19e98ff7c.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/deps/libaho_corasick-9f9e362c13087d09.rlib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/deps/libbuild-da7d0d523e204c02.rlib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/deps/libc-242412c9b9279256.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/deps/libkernel32-6d713ea19e98ff7c.rlib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/deps/liblibc-242412c9b9279256.rlib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/deps/libmemchr-b568302ca880380a.rlib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/deps/libregex-580cae6f31c90181.rlib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/deps/libregex_syntax-84d17f992650ca63.rlib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/deps/libthread_id-9a793fd693e1cee6.rlib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/deps/libthread_local-520657b7e10b81db.rlib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/deps/libtime-6a1207c6384ff8e3.rlib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/deps/libutf8_ranges-5ffd71a31cc37274.rlib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/deps/libwinapi-ba8b180ff88f95bd.rlib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/deps/memchr-b568302ca880380a.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/deps/regex-580cae6f31c90181.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/deps/regex_syntax-84d17f992650ca63.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/deps/thread_id-9a793fd693e1cee6.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/deps/thread_local-520657b7e10b81db.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/deps/time-6a1207c6384ff8e3.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/deps/utf8_ranges-5ffd71a31cc37274.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/deps/winapi-ba8b180ff88f95bd.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/hello_world" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/hello_world-d120cd7dd5e2ad3e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/hello_world-d120cd7dd5e2ad3e.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/hello_world.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/incremental/hello_world-2m9xngpnx1mjx/s-f6c3svf5q0-z146c9-zn6zlyr3qujy/1eewpkppkzjdecx2.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/incremental/hello_world-2m9xngpnx1mjx/s-f6c3svf5q0-z146c9-zn6zlyr3qujy/2e4ce8fd353elgcv.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/incremental/hello_world-2m9xngpnx1mjx/s-f6c3svf5q0-z146c9-zn6zlyr3qujy/3udjicy25gnbrwcx.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/incremental/hello_world-2m9xngpnx1mjx/s-f6c3svf5q0-z146c9-zn6zlyr3qujy/3xvaji6c99lq1ge4.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/incremental/hello_world-2m9xngpnx1mjx/s-f6c3svf5q0-z146c9-zn6zlyr3qujy/4je3f8vim4kfvemp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/incremental/hello_world-2m9xngpnx1mjx/s-f6c3svf5q0-z146c9-zn6zlyr3qujy/4q4rch005aniwihs.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/incremental/hello_world-2m9xngpnx1mjx/s-f6c3svf5q0-z146c9-zn6zlyr3qujy/4uc36ot30tynzyo6.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/incremental/hello_world-2m9xngpnx1mjx/s-f6c3svf5q0-z146c9-zn6zlyr3qujy/dep-graph.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/incremental/hello_world-2m9xngpnx1mjx/s-f6c3svf5q0-z146c9-zn6zlyr3qujy/query-cache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/incremental/hello_world-2m9xngpnx1mjx/s-f6c3svf5q0-z146c9-zn6zlyr3qujy/work-products.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/incremental/hello_world-2m9xngpnx1mjx/s-f6c3svf5q0-z146c9.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/incremental/hello_world-2vv2w6xqg7r7r/s-f6c3yhbadt-1dj6id2-3s9ijvdvchfcs/1i7dg8o6mxno86kd.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/incremental/hello_world-2vv2w6xqg7r7r/s-f6c3yhbadt-1dj6id2-3s9ijvdvchfcs/2x3g2frwpg2bwjvd.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/incremental/hello_world-2vv2w6xqg7r7r/s-f6c3yhbadt-1dj6id2-3s9ijvdvchfcs/2ytnfd13r7fid10y.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/incremental/hello_world-2vv2w6xqg7r7r/s-f6c3yhbadt-1dj6id2-3s9ijvdvchfcs/3yac4hfva33syvlw.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/incremental/hello_world-2vv2w6xqg7r7r/s-f6c3yhbadt-1dj6id2-3s9ijvdvchfcs/4lzz2tv3xmhsthit.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/incremental/hello_world-2vv2w6xqg7r7r/s-f6c3yhbadt-1dj6id2-3s9ijvdvchfcs/dep-graph.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/incremental/hello_world-2vv2w6xqg7r7r/s-f6c3yhbadt-1dj6id2-3s9ijvdvchfcs/query-cache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/incremental/hello_world-2vv2w6xqg7r7r/s-f6c3yhbadt-1dj6id2-3s9ijvdvchfcs/work-products.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/incremental/hello_world-2vv2w6xqg7r7r/s-f6c3yhbadt-1dj6id2.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/incremental/hello_world-l78ye687mwde/s-f6c2y46zlg-nw9ud4-3hcpegpcfiehw/16du5kleimc7pypg.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/incremental/hello_world-l78ye687mwde/s-f6c2y46zlg-nw9ud4-3hcpegpcfiehw/298ckqyboul5qa49.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/incremental/hello_world-l78ye687mwde/s-f6c2y46zlg-nw9ud4-3hcpegpcfiehw/2byumc0g5oe5ugd.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/incremental/hello_world-l78ye687mwde/s-f6c2y46zlg-nw9ud4-3hcpegpcfiehw/2cdgenaeuobxy3bm.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/incremental/hello_world-l78ye687mwde/s-f6c2y46zlg-nw9ud4-3hcpegpcfiehw/595t2vhgu5g7u2pb.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/incremental/hello_world-l78ye687mwde/s-f6c2y46zlg-nw9ud4-3hcpegpcfiehw/5fk809a1jy1jqtkt.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/incremental/hello_world-l78ye687mwde/s-f6c2y46zlg-nw9ud4-3hcpegpcfiehw/dep-graph.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/incremental/hello_world-l78ye687mwde/s-f6c2y46zlg-nw9ud4-3hcpegpcfiehw/query-cache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/incremental/hello_world-l78ye687mwde/s-f6c2y46zlg-nw9ud4-3hcpegpcfiehw/work-products.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../hello_world/target/debug/incremental/hello_world-l78ye687mwde/s-f6c2y46zlg-nw9ud4.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../rand" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/.fingerprint/variables-9453a3e4420d7b72/bin-variables-9453a3e4420d7b72" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/.fingerprint/variables-9453a3e4420d7b72/bin-variables-9453a3e4420d7b72" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/.fingerprint/variables-9453a3e4420d7b72/bin-variables-9453a3e4420d7b72.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/.fingerprint/variables-9453a3e4420d7b72/bin-variables-9453a3e4420d7b72.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/deps/variables-9453a3e4420d7b72" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/deps/variables-9453a3e4420d7b72" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/variables-b2slccprb9un/s-f6hlqi4lj8-1oeihgq-243wda9cuy77o/1qxi4cexyzadrix4.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/variables-b2slccprb9un/s-f6hlqi4lj8-1oeihgq-243wda9cuy77o/1ruzz3e9qew5f930.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/variables-b2slccprb9un/s-f6hlqi4lj8-1oeihgq-243wda9cuy77o/2gvwsd5h0bzxwrjg.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/variables-b2slccprb9un/s-f6hlqi4lj8-1oeihgq-243wda9cuy77o/2r4zq5fz0rtqkfvw.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/variables-b2slccprb9un/s-f6hlqi4lj8-1oeihgq-243wda9cuy77o/3im3pw79n7dc86ab.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/variables-b2slccprb9un/s-f6hlqi4lj8-1oeihgq-243wda9cuy77o/3vhvvtdlxwnabopm.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/variables-b2slccprb9un/s-f6hlqi4lj8-1oeihgq-243wda9cuy77o/4tkevmh1mueyd6v5.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/variables-b2slccprb9un/s-f6hlqi4lj8-1oeihgq-243wda9cuy77o/52w78whcr3mmmj7y.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/variables-b2slccprb9un/s-f6hlqi4lj8-1oeihgq-243wda9cuy77o/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/variables-b2slccprb9un/s-f6hlqi4lj8-1oeihgq-243wda9cuy77o/mzotjerv0kcbbc1.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/variables-b2slccprb9un/s-f6hlqi4lj8-1oeihgq-243wda9cuy77o/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/variables-b2slccprb9un/s-f6hlqi4lj8-1oeihgq-243wda9cuy77o/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/variables-b2slccprb9un/s-f6hlqi4lj8-1oeihgq.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/variables" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/variables" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -257,8 +41,11 @@
     <session id="1709682700">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -273,23 +60,29 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="rs" value="1722" />
+          <entry key="rs" value="4404" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Rust" value="1722" />
+          <entry key="Rust" value="4404" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.rs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+            <state relative-caret-position="366">
+              <caret line="93" column="14" selection-start-line="93" selection-start-column="14" selection-end-line="93" selection-end-column="14" />
+              <folding>
+                <element signature="e#3699#3700#0" expanded="true" />
+                <element signature="e#3755#3756#0" expanded="true" />
+                <element signature="e#3775#3776#0" expanded="true" />
+                <element signature="e#3791#3792#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -318,8 +111,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -336,6 +127,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -372,16 +165,13 @@
     <frame x="65" y="24" width="928" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494331" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26077098" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -389,15 +179,18 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Cargo" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Cargo" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -406,8 +199,14 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+        <state relative-caret-position="366">
+          <caret line="93" column="14" selection-start-line="93" selection-start-column="14" selection-end-line="93" selection-end-column="14" />
+          <folding>
+            <element signature="e#3699#3700#0" expanded="true" />
+            <element signature="e#3755#3756#0" expanded="true" />
+            <element signature="e#3775#3776#0" expanded="true" />
+            <element signature="e#3791#3792#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

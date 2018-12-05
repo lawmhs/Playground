@@ -1,41 +1,6 @@
 // in first.rs
 use std::mem;
 
-#[cfg(test)]
-mod test {
-    use super::List;
-    #[test]
-    fn basics() {
-        // TODO
-        let mut list = List::new();
-
-        // check empty list behaves right
-        assert_eq!(list.pop(), None);
-
-        // Populate list
-        list.push(1);
-        list.push(2);
-        list.push(3);
-
-        // Check normal removal
-        assert_eq!(list.pop(), Some(3));
-        assert_eq!(list.pop(), Some(2));
-
-        // push some more just to make sure nothing's corrupted
-        list.push(4);
-        list.push(5);
-
-        // check normal removal
-        assert_eq!(list.pop(), Some(5));
-        assert_eq!(list.pop(), Some(4));
-
-        // Check exhaustion
-        assert_eq!(list.pop(), Some(1));
-        assert_eq!(list.pop(), None);
-
-    }
-}
-
 // pub says we want people outside this module to be able to use List
 pub struct List {
     head: Link,
@@ -83,6 +48,16 @@ impl List {
                 self.head = node.next;
                 Some(node.elem)
             }
+            // also pattern matches move the value they match on
+            // so if you don't own the thing you're trying to match
+            // the compiler will angery
+            // so you can use the memory replace trick
+            // because you know that either the element is empty (so setting it to be empty changes nothing)
+            // or you're going to be replacing it with the new value so setting it to be empty
+            // isn't going to be permanent anyway
+
+            // also the only thing you can't do with &mut is move the value out with no replacement
+            // so that's why we need the move replace trick
         }
     }
 }
@@ -96,6 +71,41 @@ impl Drop for List {
             // but its node's next field that has been set to Link::Empty
             // so there' no unbounded recursion?
         }
+    }
+}
+
+#[cfg(test)]
+mod test {
+    use super::List;
+    #[test]
+    fn basics() {
+        // TODO
+        let mut list = List::new();
+
+        // check empty list behaves right
+        assert_eq!(list.pop(), None);
+
+        // Populate list
+        list.push(1);
+        list.push(2);
+        list.push(3);
+
+        // Check normal removal
+        assert_eq!(list.pop(), Some(3));
+        assert_eq!(list.pop(), Some(2));
+
+        // push some more just to make sure nothing's corrupted
+        list.push(4);
+        list.push(5);
+
+        // check normal removal
+        assert_eq!(list.pop(), Some(5));
+        assert_eq!(list.pop(), Some(4));
+
+        // Check exhaustion
+        assert_eq!(list.pop(), Some(1));
+        assert_eq!(list.pop(), None);
+
     }
 }
 
