@@ -1,0 +1,6 @@
+[package]
+name = "TextEdit"
+version = "0.1.0"
+authors = ["lawmhs <matthew.hs.law@hotmail.com>"]
+
+[dependencies]
