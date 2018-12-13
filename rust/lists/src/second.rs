@@ -16,10 +16,21 @@ struct Node<T> {
 
 pub struct IntoIter<T>(List<T>);
 
+// Iter is generic over some lifetime, it doesn't care
 pub struct Iter<'a, T: 'a> {
     next: Option<&'a Node<T>>,
 }
 
+pub struct IterMut<'a, T: 'a> {
+    next : Option<&'a mut Node<T>>,
+}
+
+// so there are three iterators here
+// into_iter, giving us the value itself
+// iter, giving us the refs to the value
+// and iter_mut, giving us mutable refs to the values
+
+// List doesn't have any associated lifetimes
 impl<T> List<T> {
     pub fn new() -> Self {
         List { head: None }
@@ -29,8 +40,19 @@ impl<T> List<T> {
         IntoIter(self)
     }
 
-    pub fn iter<'a>(&'a self) -> Iter<'a, T> {
+    // but we will need a lifetime here
+    // declare a fresh lifetime for the borrow that creates the iter
+    // &self needs to be valid as long as the Iter is around
+    // ergo, the object that iter is being called on
+    // has to exist for at least as long as the iter itself does
+    // e.g. a range and an iter over a range, the range must exist at least as long
+    pub fn iter(&self) -> Iter<T> {
         Iter { next: self.head.as_ref().map(|node| &**node) }
+    }
+    // although above, lifetime ellision would work
+
+    pub fn iter_mut(&mut self) -> IterMut<T> {
+        IterMut { next: self.head.as_mut().map(|node| &mut **node) }
     }
 
     pub fn push(&mut self, elem: T) {
@@ -100,14 +122,23 @@ impl<T> Iterator for IntoIter<T> { // this is iterating and taking the values ou
 
 impl<'a, T> Iterator for Iter<'a, T> { // this one will just be iterating without taking values out
     type Item = &'a T; // but this pointer might live forever?? since we're returning a bunch of refs
-
-fn next(&mut self) -> Option<Self::Item> {
+    fn next(&mut self) -> Option<Self::Item> {
         self.next.map(|node| {
             self.next = node.next.as_ref().map(|node| &**node);
             &node.elem // yields a reference to the gotten node
             // because we're not consuming
             // the map is the usual mem::replace trick
             // under a bunch of abstractions
+        })
+    }
+}
+
+impl<'a, T>Iterator for IterMut<'a, T> {
+    type Item = &'a mut T;
+    fn next(&mut self) -> Option<Self::Item> { // mutable needs take here
+        self.next.take().map(|node|{
+            self.next = node.next.as_mut().map(|node| &mut **node);
+            &mut node.elem
         })
     }
 }
@@ -184,6 +215,20 @@ mod test {
         assert_eq!(iter.next(), Some(&3));
         assert_eq!(iter.next(), Some(&2));
         assert_eq!(iter.next(), Some(&1));
+    }
+
+    #[test]
+    fn iter_mut() {
+        let mut list : List<i32> = List::new();
+        list.push(1);
+        list.push(2);
+        list.push(3);
+
+        let mut iter = list.iter_mut();
+        assert_eq!(iter.next(), Some(&mut 3));
+        assert_eq!(iter.next(), Some(&mut 2));
+        assert_eq!(iter.next(), Some(&mut 1));
+
     }
 }
 
