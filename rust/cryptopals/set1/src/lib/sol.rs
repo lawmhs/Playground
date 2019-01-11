@@ -54,6 +54,11 @@ pub fn xor(mut s : Vec<u8>, t : Vec<u8>) -> Vec<u8> {
 
 }
 
+// detect a single key xor cipher
+pub fn detect_single_key_xor() {
+
+}
+
 #[cfg(test)]
 mod tests {
 
