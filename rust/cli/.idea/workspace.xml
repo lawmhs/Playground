@@ -3,10 +3,26 @@
   <component name="ChangeListManager">
     <list default="true" id="67828e08-56ca-43bb-a6bf-28832f603887" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/.fingerprint/cli-d84320dd2a9a2cb6/bin-cli-d84320dd2a9a2cb6" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/.fingerprint/cli-d84320dd2a9a2cb6/bin-cli-d84320dd2a9a2cb6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/.fingerprint/cli-d84320dd2a9a2cb6/bin-cli-d84320dd2a9a2cb6.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/.fingerprint/cli-d84320dd2a9a2cb6/bin-cli-d84320dd2a9a2cb6.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/debug/cli" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/cli" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/deps/cli-d84320dd2a9a2cb6" beforeDir="false" afterPath="$PROJECT_DIR$/target/debug/deps/cli-d84320dd2a9a2cb6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/cli-1wxhbky8bo4ku/s-f9dt9jb76t-1so0goe-1mwxgkokq3qsi/1gtue2zcixg1jx9k.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/cli-1wxhbky8bo4ku/s-f9dt9jb76t-1so0goe-1mwxgkokq3qsi/28b189afchhh5goj.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/cli-1wxhbky8bo4ku/s-f9dt9jb76t-1so0goe-1mwxgkokq3qsi/2b554sv3tghtu60c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/cli-1wxhbky8bo4ku/s-f9dt9jb76t-1so0goe-1mwxgkokq3qsi/2ol53nmx0o858l59.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/cli-1wxhbky8bo4ku/s-f9dt9jb76t-1so0goe-1mwxgkokq3qsi/2x0swe423n3sffhd.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/cli-1wxhbky8bo4ku/s-f9dt9jb76t-1so0goe-1mwxgkokq3qsi/34dnlb0i9bjetv7q.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/cli-1wxhbky8bo4ku/s-f9dt9jb76t-1so0goe-1mwxgkokq3qsi/3h9uavvockbr40jj.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/cli-1wxhbky8bo4ku/s-f9dt9jb76t-1so0goe-1mwxgkokq3qsi/3o0vru8ifrqvfva3.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/cli-1wxhbky8bo4ku/s-f9dt9jb76t-1so0goe-1mwxgkokq3qsi/58f8c7tb0ogv9jib.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/cli-1wxhbky8bo4ku/s-f9dt9jb76t-1so0goe-1mwxgkokq3qsi/75kxf8w0yml556b.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/cli-1wxhbky8bo4ku/s-f9dt9jb76t-1so0goe-1mwxgkokq3qsi/bgbsvsjgf1g3ekt.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/cli-1wxhbky8bo4ku/s-f9dt9jb76t-1so0goe-1mwxgkokq3qsi/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/cli-1wxhbky8bo4ku/s-f9dt9jb76t-1so0goe-1mwxgkokq3qsi/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/cli-1wxhbky8bo4ku/s-f9dt9jb76t-1so0goe-1mwxgkokq3qsi/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/debug/incremental/cli-1wxhbky8bo4ku/s-f9dt9jb76t-1so0goe.lock" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,12 +50,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="rs" value="4661" />
+          <entry key="rs" value="2619" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Rust" value="4661" />
+          <entry key="Rust" value="2619" />
         </counts>
       </usages-collector>
     </session>
@@ -49,8 +65,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.rs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="50" column="56" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
+            <state relative-caret-position="405">
+              <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -100,7 +116,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550130243190" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549950630127" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
   </component>
   <component name="RunDashboard">
@@ -166,8 +182,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="50" column="56" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
+        <state relative-caret-position="405">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
         </state>
       </provider>
     </entry>

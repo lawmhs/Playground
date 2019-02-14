@@ -6,8 +6,3 @@ edition = "2018"
 
 [dependencies]
 clap="2.32.0"
-openssl="0.10.16"
-reqwest="0.9.9"
-scraper="0.9.1"
-select="0.4.2"
-
