@@ -1,0 +1,6 @@
+[package]
+name = "scope_exercises"
+version = "0.1.0"
+authors = ["lawmhs <matthew.hs.law@hotmail.com>"]
+
+[dependencies]

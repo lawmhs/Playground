@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1d70ad49-c724-474d-8ead-378adcf967e1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/cli/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cli/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/.fingerprint/arrayvec-5ea52a18de964228/build" beforeDir="false" afterPath="$PROJECT_DIR$/cli/target/debug/.fingerprint/arrayvec-5ea52a18de964228/build" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/.fingerprint/arrayvec-5ea52a18de964228/build.json" beforeDir="false" afterPath="$PROJECT_DIR$/cli/target/debug/.fingerprint/arrayvec-5ea52a18de964228/build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/.fingerprint/cli-7ac7715314eac1d4/bin-cli-7ac7715314eac1d4" beforeDir="false" afterPath="$PROJECT_DIR$/cli/target/debug/.fingerprint/cli-7ac7715314eac1d4/bin-cli-7ac7715314eac1d4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/.fingerprint/cli-7ac7715314eac1d4/bin-cli-7ac7715314eac1d4.json" beforeDir="false" afterPath="$PROJECT_DIR$/cli/target/debug/.fingerprint/cli-7ac7715314eac1d4/bin-cli-7ac7715314eac1d4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/.fingerprint/crc32fast-41e307903d47887d/build" beforeDir="false" afterPath="$PROJECT_DIR$/cli/target/debug/.fingerprint/crc32fast-41e307903d47887d/build" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/.fingerprint/crc32fast-41e307903d47887d/build.json" beforeDir="false" afterPath="$PROJECT_DIR$/cli/target/debug/.fingerprint/crc32fast-41e307903d47887d/build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/.fingerprint/cssparser-f0c173cb5bc9b1b4/build" beforeDir="false" afterPath="$PROJECT_DIR$/cli/target/debug/.fingerprint/cssparser-f0c173cb5bc9b1b4/build" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/.fingerprint/cssparser-f0c173cb5bc9b1b4/build.json" beforeDir="false" afterPath="$PROJECT_DIR$/cli/target/debug/.fingerprint/cssparser-f0c173cb5bc9b1b4/build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/.fingerprint/html5ever-20f3efc7f335615e/build" beforeDir="false" afterPath="$PROJECT_DIR$/cli/target/debug/.fingerprint/html5ever-20f3efc7f335615e/build" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/.fingerprint/html5ever-20f3efc7f335615e/build.json" beforeDir="false" afterPath="$PROJECT_DIR$/cli/target/debug/.fingerprint/html5ever-20f3efc7f335615e/build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/.fingerprint/html5ever-d9fbf534fad3878a/build" beforeDir="false" afterPath="$PROJECT_DIR$/cli/target/debug/.fingerprint/html5ever-d9fbf534fad3878a/build" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/.fingerprint/html5ever-d9fbf534fad3878a/build.json" beforeDir="false" afterPath="$PROJECT_DIR$/cli/target/debug/.fingerprint/html5ever-d9fbf534fad3878a/build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/.fingerprint/proc-macro2-7e510ed97b2894b4/build" beforeDir="false" afterPath="$PROJECT_DIR$/cli/target/debug/.fingerprint/proc-macro2-7e510ed97b2894b4/build" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/.fingerprint/proc-macro2-7e510ed97b2894b4/build.json" beforeDir="false" afterPath="$PROJECT_DIR$/cli/target/debug/.fingerprint/proc-macro2-7e510ed97b2894b4/build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/.fingerprint/rand-1f3249e55e098fac/build" beforeDir="false" afterPath="$PROJECT_DIR$/cli/target/debug/.fingerprint/rand-1f3249e55e098fac/build" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/.fingerprint/rand-1f3249e55e098fac/build.json" beforeDir="false" afterPath="$PROJECT_DIR$/cli/target/debug/.fingerprint/rand-1f3249e55e098fac/build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/.fingerprint/rand_chacha-07cc25de3d0d84e1/build" beforeDir="false" afterPath="$PROJECT_DIR$/cli/target/debug/.fingerprint/rand_chacha-07cc25de3d0d84e1/build" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/.fingerprint/rand_chacha-07cc25de3d0d84e1/build.json" beforeDir="false" afterPath="$PROJECT_DIR$/cli/target/debug/.fingerprint/rand_chacha-07cc25de3d0d84e1/build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4001sm4-13tv417-working/107uwt34frrk564b.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4001sm4-13tv417-working/13renl237f0kqqyb.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4001sm4-13tv417-working/19fft0bytwfnjd4q.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4001sm4-13tv417-working/1jjz5bjh9gxweyp0.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4001sm4-13tv417-working/1moiivmkusevhod0.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4001sm4-13tv417-working/24exw0evucp7mgef.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4001sm4-13tv417-working/24fjud6cr3evakcq.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4001sm4-13tv417-working/286mpxvid20p55eh.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4001sm4-13tv417-working/29secpfhm934b7ll.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4001sm4-13tv417-working/2k9mzeraa0szdac.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4001sm4-13tv417-working/2krse9i81i4sgu4g.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4001sm4-13tv417-working/307m4itp3ssuvbx8.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4001sm4-13tv417-working/364r6v1f8n6b7v74.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4001sm4-13tv417-working/3b2s4lkw7nsdhzp7.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4001sm4-13tv417-working/3bfditg899xr2o61.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4001sm4-13tv417-working/3fe04n5hjp568gg9.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4001sm4-13tv417-working/3hfnawfsnora6r39.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4001sm4-13tv417-working/3lyh5n368qev8n7u.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4001sm4-13tv417-working/3n8a1hpko0qcmgqc.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4001sm4-13tv417-working/3u4n1wh0mcxjkw1x.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4001sm4-13tv417-working/3uqi099t9njlfro9.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4001sm4-13tv417-working/3w13guwskzqikwvx.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4001sm4-13tv417-working/40dn1qolfh4h2ju9.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4001sm4-13tv417-working/467ze5bz2dim4g1y.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4001sm4-13tv417-working/4hf3ov475hu720u5.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4001sm4-13tv417-working/4teb19blg9eaarwh.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4001sm4-13tv417-working/4xrh19b6s1a9ktk7.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4001sm4-13tv417-working/51b8qwyaqj4u00cx.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4001sm4-13tv417-working/52h6tyjbrj6sh6r.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4001sm4-13tv417-working/58pio6fi9k63nqdt.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4001sm4-13tv417-working/5aznulkzk5amegsa.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4001sm4-13tv417-working/5fjep0wvbecoaz9o.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4001sm4-13tv417-working/5godsjhw6w8ebjid.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4001sm4-13tv417-working/a8taziln7eilidz.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4001sm4-13tv417-working/abcaontjnt63dwb.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4001sm4-13tv417-working/aco1c8b5qr2hxcl.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4001sm4-13tv417-working/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4001sm4-13tv417-working/moy2lrz00wss4gj.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4001sm4-13tv417-working/q9u5qa23jwayv4j.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4001sm4-13tv417-working/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4001sm4-13tv417-working/ta11nd0yii17ayv.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4001sm4-13tv417-working/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4001sm4-13tv417.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4046vrm-1cvjh0h-3ffap882sa6w8/107uwt34frrk564b.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4046vrm-1cvjh0h-3ffap882sa6w8/13renl237f0kqqyb.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4046vrm-1cvjh0h-3ffap882sa6w8/19fft0bytwfnjd4q.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4046vrm-1cvjh0h-3ffap882sa6w8/1jjz5bjh9gxweyp0.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4046vrm-1cvjh0h-3ffap882sa6w8/1moiivmkusevhod0.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4046vrm-1cvjh0h-3ffap882sa6w8/24exw0evucp7mgef.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4046vrm-1cvjh0h-3ffap882sa6w8/24fjud6cr3evakcq.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4046vrm-1cvjh0h-3ffap882sa6w8/286mpxvid20p55eh.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4046vrm-1cvjh0h-3ffap882sa6w8/29secpfhm934b7ll.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4046vrm-1cvjh0h-3ffap882sa6w8/2k9mzeraa0szdac.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4046vrm-1cvjh0h-3ffap882sa6w8/2krse9i81i4sgu4g.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4046vrm-1cvjh0h-3ffap882sa6w8/307m4itp3ssuvbx8.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4046vrm-1cvjh0h-3ffap882sa6w8/364r6v1f8n6b7v74.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4046vrm-1cvjh0h-3ffap882sa6w8/3b2s4lkw7nsdhzp7.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4046vrm-1cvjh0h-3ffap882sa6w8/3bfditg899xr2o61.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4046vrm-1cvjh0h-3ffap882sa6w8/3fe04n5hjp568gg9.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4046vrm-1cvjh0h-3ffap882sa6w8/3hfnawfsnora6r39.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4046vrm-1cvjh0h-3ffap882sa6w8/3lyh5n368qev8n7u.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4046vrm-1cvjh0h-3ffap882sa6w8/3n8a1hpko0qcmgqc.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4046vrm-1cvjh0h-3ffap882sa6w8/3u4n1wh0mcxjkw1x.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4046vrm-1cvjh0h-3ffap882sa6w8/3uqi099t9njlfro9.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4046vrm-1cvjh0h-3ffap882sa6w8/3w13guwskzqikwvx.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4046vrm-1cvjh0h-3ffap882sa6w8/40dn1qolfh4h2ju9.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4046vrm-1cvjh0h-3ffap882sa6w8/467ze5bz2dim4g1y.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4046vrm-1cvjh0h-3ffap882sa6w8/4hf3ov475hu720u5.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4046vrm-1cvjh0h-3ffap882sa6w8/4teb19blg9eaarwh.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4046vrm-1cvjh0h-3ffap882sa6w8/4xrh19b6s1a9ktk7.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4046vrm-1cvjh0h-3ffap882sa6w8/51b8qwyaqj4u00cx.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4046vrm-1cvjh0h-3ffap882sa6w8/52h6tyjbrj6sh6r.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4046vrm-1cvjh0h-3ffap882sa6w8/58pio6fi9k63nqdt.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4046vrm-1cvjh0h-3ffap882sa6w8/5aznulkzk5amegsa.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4046vrm-1cvjh0h-3ffap882sa6w8/5fjep0wvbecoaz9o.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4046vrm-1cvjh0h-3ffap882sa6w8/5godsjhw6w8ebjid.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4046vrm-1cvjh0h-3ffap882sa6w8/a8taziln7eilidz.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4046vrm-1cvjh0h-3ffap882sa6w8/abcaontjnt63dwb.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4046vrm-1cvjh0h-3ffap882sa6w8/aco1c8b5qr2hxcl.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4046vrm-1cvjh0h-3ffap882sa6w8/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4046vrm-1cvjh0h-3ffap882sa6w8/moy2lrz00wss4gj.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4046vrm-1cvjh0h-3ffap882sa6w8/q9u5qa23jwayv4j.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4046vrm-1cvjh0h-3ffap882sa6w8/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4046vrm-1cvjh0h-3ffap882sa6w8/ta11nd0yii17ayv.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4046vrm-1cvjh0h-3ffap882sa6w8/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cli/target/debug/incremental/cli-204e8xx8bgs7q/s-f9h4046vrm-1cvjh0h.lock" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="722789929">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="992" />
+    <option name="y" value="34" />
+    <option name="width" value="928" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d70ad49-c724-474d-8ead-378adcf967e1" name="Default Changelist" comment="" />
+      <created>1551911011233</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551911011233</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="992" y="34" width="928" height="1056" extended-state="0" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494331" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Cargo" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
