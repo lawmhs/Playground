@@ -2,10 +2,10 @@
 
 extern crate ggez;
 
-use ggez::event;
+use ggez::event::{KeyCode, KeyMods};
 use ggez::graphics;
 use ggez::nalgebra as na;
-use ggez::{Context, GameResult};
+use ggez::{event, graphics, Context, GameResult};
 
 struct MainState {
     pos_x: f32,
