@@ -1,0 +1,15 @@
+/home/user/Documents/Projects/Playground/rust/ggez/simple_move/target/debug/deps/libderivative-2a2bcae997c9292c.so: /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/derivative-1.0.2/src/lib.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/derivative-1.0.2/src/ast.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/derivative-1.0.2/src/attr.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/derivative-1.0.2/src/bound.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/derivative-1.0.2/src/clone.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/derivative-1.0.2/src/cmp.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/derivative-1.0.2/src/debug.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/derivative-1.0.2/src/default.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/derivative-1.0.2/src/hash.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/derivative-1.0.2/src/matcher.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/derivative-1.0.2/src/utils.rs
+
+/home/user/Documents/Projects/Playground/rust/ggez/simple_move/target/debug/deps/derivative-2a2bcae997c9292c.d: /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/derivative-1.0.2/src/lib.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/derivative-1.0.2/src/ast.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/derivative-1.0.2/src/attr.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/derivative-1.0.2/src/bound.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/derivative-1.0.2/src/clone.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/derivative-1.0.2/src/cmp.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/derivative-1.0.2/src/debug.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/derivative-1.0.2/src/default.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/derivative-1.0.2/src/hash.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/derivative-1.0.2/src/matcher.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/derivative-1.0.2/src/utils.rs
+
+/home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/derivative-1.0.2/src/lib.rs:
+/home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/derivative-1.0.2/src/ast.rs:
+/home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/derivative-1.0.2/src/attr.rs:
+/home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/derivative-1.0.2/src/bound.rs:
+/home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/derivative-1.0.2/src/clone.rs:
+/home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/derivative-1.0.2/src/cmp.rs:
+/home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/derivative-1.0.2/src/debug.rs:
+/home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/derivative-1.0.2/src/default.rs:
+/home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/derivative-1.0.2/src/hash.rs:
+/home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/derivative-1.0.2/src/matcher.rs:
+/home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/derivative-1.0.2/src/utils.rs:

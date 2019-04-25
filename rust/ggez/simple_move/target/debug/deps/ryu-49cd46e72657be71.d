@@ -1,0 +1,15 @@
+/home/user/Documents/Projects/Playground/rust/ggez/simple_move/target/debug/deps/libryu-49cd46e72657be71.rlib: /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/ryu-0.2.7/src/lib.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/ryu-0.2.7/src/buffer/mod.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/ryu-0.2.7/src/common.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/ryu-0.2.7/src/d2s.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/ryu-0.2.7/src/d2s_full_table.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/ryu-0.2.7/src/d2s_intrinsics.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/ryu-0.2.7/src/digit_table.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/ryu-0.2.7/src/f2s.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/ryu-0.2.7/src/pretty/mod.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/ryu-0.2.7/src/pretty/exponent.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/ryu-0.2.7/src/pretty/mantissa.rs
+
+/home/user/Documents/Projects/Playground/rust/ggez/simple_move/target/debug/deps/ryu-49cd46e72657be71.d: /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/ryu-0.2.7/src/lib.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/ryu-0.2.7/src/buffer/mod.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/ryu-0.2.7/src/common.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/ryu-0.2.7/src/d2s.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/ryu-0.2.7/src/d2s_full_table.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/ryu-0.2.7/src/d2s_intrinsics.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/ryu-0.2.7/src/digit_table.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/ryu-0.2.7/src/f2s.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/ryu-0.2.7/src/pretty/mod.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/ryu-0.2.7/src/pretty/exponent.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/ryu-0.2.7/src/pretty/mantissa.rs
+
+/home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/ryu-0.2.7/src/lib.rs:
+/home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/ryu-0.2.7/src/buffer/mod.rs:
+/home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/ryu-0.2.7/src/common.rs:
+/home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/ryu-0.2.7/src/d2s.rs:
+/home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/ryu-0.2.7/src/d2s_full_table.rs:
+/home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/ryu-0.2.7/src/d2s_intrinsics.rs:
+/home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/ryu-0.2.7/src/digit_table.rs:
+/home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/ryu-0.2.7/src/f2s.rs:
+/home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/ryu-0.2.7/src/pretty/mod.rs:
+/home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/ryu-0.2.7/src/pretty/exponent.rs:
+/home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/ryu-0.2.7/src/pretty/mantissa.rs:

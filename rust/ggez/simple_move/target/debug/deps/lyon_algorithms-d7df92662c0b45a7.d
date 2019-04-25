@@ -1,0 +1,12 @@
+/home/user/Documents/Projects/Playground/rust/ggez/simple_move/target/debug/deps/liblyon_algorithms-d7df92662c0b45a7.rlib: /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/lyon_algorithms-0.13.1/src/lib.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/lyon_algorithms-0.13.1/src/advanced_path.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/lyon_algorithms-0.13.1/src/splitter.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/lyon_algorithms-0.13.1/src/hatching.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/lyon_algorithms-0.13.1/src/raycast.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/lyon_algorithms-0.13.1/src/walk.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/lyon_algorithms-0.13.1/src/aabb.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/lyon_algorithms-0.13.1/src/fit.rs
+
+/home/user/Documents/Projects/Playground/rust/ggez/simple_move/target/debug/deps/lyon_algorithms-d7df92662c0b45a7.d: /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/lyon_algorithms-0.13.1/src/lib.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/lyon_algorithms-0.13.1/src/advanced_path.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/lyon_algorithms-0.13.1/src/splitter.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/lyon_algorithms-0.13.1/src/hatching.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/lyon_algorithms-0.13.1/src/raycast.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/lyon_algorithms-0.13.1/src/walk.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/lyon_algorithms-0.13.1/src/aabb.rs /home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/lyon_algorithms-0.13.1/src/fit.rs
+
+/home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/lyon_algorithms-0.13.1/src/lib.rs:
+/home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/lyon_algorithms-0.13.1/src/advanced_path.rs:
+/home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/lyon_algorithms-0.13.1/src/splitter.rs:
+/home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/lyon_algorithms-0.13.1/src/hatching.rs:
+/home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/lyon_algorithms-0.13.1/src/raycast.rs:
+/home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/lyon_algorithms-0.13.1/src/walk.rs:
+/home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/lyon_algorithms-0.13.1/src/aabb.rs:
+/home/user/.cargo/registry/src/github.com-1ecc6299db9ec823/lyon_algorithms-0.13.1/src/fit.rs:
