@@ -1,15 +1,54 @@
 <!DOCTYPE html>
 <html>
-    <head>
 
-    </head>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
 
-    <body>
-        <h1>Todo List</h1>
+  <body>
+    <h1>Todo List</h1>
+    
+    <div>
+      <button onclick="handlers.toggleAll()">Toggle All</button>
+    </div>
+    
+    <div>
+      <button onclick="handlers.addTodo()">Add</button>
+      <input id= "addTodoTextInput" type="text" onkeypress="">
+    </div>
+    
+    <ul>
+    </ul>
+    
+    <div id="usage">
+      <h2>
+        How to use :
+      </h2>
+      <p>
+        Use the input on add to add new items to your todo list.
+      </p>
+      <p>
+        The Toggle All button will either mark all of your todo items to be done, or, if they're 
+        all done, then it will mark all of them not done!
+      </p>
+      <p>
+        To change your todo items, just click the text of the item and an input bar will be shown
+        You can use that to change the todo item.
+      </p>
+    </div>
+    
+    <div id="about">
+      <h2>
+        About : 
+      </h2>
+      <p>
+        First time making a javascript application, learned how to make a
+        basic todo app from WatchAndCode, but now I'm tinkering with it to do other things!
+      </p>
+    </div>
+    
+    <script src="todos.js"></script>
+  </body>
 
-        <button id="displayTodosButton">Display Todos</button>
-        <button id="toggleAllButton">Toggle All</button>
-
-        <script src="todos.js"></script>
-    </body>
 </html>
