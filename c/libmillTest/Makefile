@@ -1,9 +1,7 @@
 CC=gcc
-LIBB = /usr/local/lib/libmill/
-INCLUDES = /usr/local/lib/libmill/
+INCLUDES = /usr/local/lib/libaco/
 CFLAGS += -I$(INCLUDES)
-LDFLAGS += -L$(LIBB)
-LDFLAGS += -lmill
+LDFLAGS += -lmill -luv
 
 %.o: %.c
 	$(CC) -c -o $@ $< $(CFLAGS)
