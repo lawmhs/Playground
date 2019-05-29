@@ -62,6 +62,8 @@ impl event::EventHandler for MainState {
             Direction::Left => self.pos_x = self.pos_x - self.speed,
             Direction::Right => self.pos_x = self.pos_x + self.speed,
         };
+
+        
     }
 }
 
