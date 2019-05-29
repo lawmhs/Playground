@@ -1,1 +1,0 @@
-{"rustc":804226499018287853,"features":"[]","target":8503976201832600250,"profile":9935990280773120926,"path":112259356965957435,"deps":[["adler32 v1.0.3","adler32",13826670622704160042],["byteorder v1.3.1","byteorder",13997581701968396708]],"local":[{"Precalculated":"0.7.19"}],"rustflags":[],"edition":"Edition2015"}

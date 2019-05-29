@@ -1,1 +1,0 @@
-{"rustc":804226499018287853,"features":"[]","target":10946856929368359643,"profile":9935990280773120926,"path":15728879866944270619,"deps":[["euclid_macros v0.1.0","euclid_macros",2013110556026613030],["num-traits v0.2.6","num_traits",1288089387883227315]],"local":[{"Precalculated":"0.19.8"}],"rustflags":[],"edition":"Edition2015"}

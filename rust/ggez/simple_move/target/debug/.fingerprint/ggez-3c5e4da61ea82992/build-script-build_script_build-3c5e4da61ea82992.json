@@ -1,1 +1,0 @@
-{"rustc":804226499018287853,"features":"[\"bzip2\", \"c_dependencies\", \"default\", \"mp3\", \"rodio\", \"zip\"]","target":10429514197457385088,"profile":9935990280773120926,"path":14267901863911142603,"deps":[["skeptic v0.13.4","skeptic",17738985071830323254]],"local":[{"Precalculated":"0.5.0-rc.2"}],"rustflags":[],"edition":"Edition2018"}

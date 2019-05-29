@@ -1,1 +1,0 @@
-{"rustc":804226499018287853,"features":"[\"default\", \"std\"]","target":13204378065713084221,"profile":9935990280773120926,"path":711885604124544364,"deps":[["nodrop v0.1.13","nodrop",11303518846368501196]],"local":[{"Precalculated":"0.4.10"}],"rustflags":[],"edition":"Edition2015"}
