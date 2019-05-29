@@ -37,6 +37,7 @@ int main() {
         printf("prime #%d is : %d\n", i, p);
         chan out = chmake(int, DEFAULT_LIMIT);
         go(cull(ch, out, p));
+
         ch = out;
         // definitely needs something to clean up all the memory though
     }

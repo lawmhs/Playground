@@ -1,0 +1,2 @@
+This program is just a playground to test libmill, a library that implements
+go like coroutines into C.
