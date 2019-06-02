@@ -1,0 +1,25 @@
+
+To compile the test program run the following:
+
+ mpicc -o mpitest mpitest.c ./debug.c -L. -ladapter
+
+The chan (chan.c and queue.c) library is used to pass a go-like message from the main program to the child.  The
+MPI main program uses a PIPE to communicate to its intent SEND/RECV/DISPOSE to the child which
+can do select on the server FD and pipe FD, along with any clients that have connected. 
+
+The uthash is a widely used MACRO implementation of a hash.  Carefully using this because 
+there are MACROs not function calls.  
+
+The grequest() makes it possible to create requests on the MPI side which will act like the
+standard type of non-blocking requests for iSend and iRecv.  Requests are opaque and call-backs
+are used to do application specific handling of a grequest. 
+
+MPI drives the protocol in that the child does not read a socket buffer until there is a MPI
+recv. In particular, the child does NOT data unless there is an active RECV request.  On a
+SEND request the data is simply sent to the client (it will block on a full socket buffer,
+which is not ideal but needed unless we add a way to cancel a request or close a misbehaving
+client (e.g. one that doesn't read data).  The DISPOSE signals that is terminating and the
+child should close all connections and exit. 
+
+An added command to pipe with some appropriate MPIX command could be used to CANCEL a request
+where CANCEL means to terminate. 

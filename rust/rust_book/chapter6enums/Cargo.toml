@@ -1,6 +1,0 @@
-[package]
-name = "chapter6enums"
-version = "0.1.0"
-authors = ["lawmhs <matthew.hs.law@hotmail.com>"]
-
-[dependencies]

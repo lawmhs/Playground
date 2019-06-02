@@ -1,1 +1,0 @@
-/home/user/Documents/Projects/Playground/rust/rust_book/chapter7modules/scope_exercises/target/debug/libscope_exercises.rlib: /home/user/Documents/Projects/Playground/rust/rust_book/chapter7modules/scope_exercises/src/lib.rs
