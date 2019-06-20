@@ -17,7 +17,7 @@ endif
 OPTFLAGS  =   -g -Wpointer-arith 
 # add in optimization flags -02
 INCLUDES = -I. -I..
-LIB	=   
+LIB	= -lpthread
 
 # unix commands
 RM        = /bin/rm -f     
@@ -40,3 +40,10 @@ libadapter.a: grequest.o connectionmanager.o netutils.o iochild.o chan.o queue.o
 clean:                      
 	${RM} *.o 
 	${RM} *.a 
+
+py: 
+	${CC} mpitest.c debug.c -ladapter -L . -o mpitest -lpthread -lpython3.6m -lm -I/usr/include/python3.6m
+
+run:
+	${CC} mpitest.c debug.c -ladapter -L . -o mpitest -lpthread -lpython3.6m -lm -I/usr/include/python3.6m
+	./mpitest

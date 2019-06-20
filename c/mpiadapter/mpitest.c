@@ -6,6 +6,8 @@
 #include <stdlib.h>
 #include "grequest.h"
 
+#include <Python.h>
+
 #define MAXMSGSIZE 100
 #define PORT 5555
 
@@ -35,14 +37,17 @@ int main(int argc, char *argv[])
 	// HERE IS WHERE YOU READ OR WRITE TO THE CHILD
 	int times=5;
 	int count = 0;
+
 	while (times--) 
         if (0)
-        {
+        {   
+
             MPIX_chan(RECV,msg,MAXMSGSIZE,MPI_BYTE,status.MPI_SOURCE,tag,(childargs_t *)cargs,&srequest);
             MPI_Wait(&srequest,&status);
             MPI_Get_count( &status,MPI_CHAR,&count);
             printf("** %d ** MPI RECV ******** msg SOURCE:%d TAG:%d COUNT:%d ->%s<-\n",times,status.MPI_SOURCE,status.MPI_TAG,count,msg);
         } else {
+
             memset(msg, 0, MAXMSGSIZE);
             strcpy(msg,"hello\n");            
             MPIX_chan(SEND,msg,len,MPI_BYTE,99,23,(childargs_t *)cargs,&srequest);
