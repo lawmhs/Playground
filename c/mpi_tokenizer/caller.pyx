@@ -4,6 +4,8 @@ import numpy as np
 from libc.stdlib cimport malloc, free
 from libc.string cimport strcmp
 
+encoding = "utf-8"
+
 cdef public struct Corpus:
     int size
     char **strs
@@ -26,12 +28,23 @@ cdef public int greeting(int number):
 
 # This function will take in a file name
 cdef public void fillCorpus(char * file_name, Corpus *c):
-    f = file_name.decode('utf-8')
+    f = file_name.decode(encoding)
     print("The file passed in is " + f)
-    strings = rt.readLinesIntoListOfString(file_name.decode('utf-8'))
+    strings = rt.tokenize(file_name.decode(encoding))
 
     # now we want to fill the corpus structure passed in:
     c.size = len(strings)
     c.strs = to_cstring_array(strings)
+
+# This function will filter out the strings in the corpus's str field
+# and also remove the punctuation
+cdef public void filter(Corpus *c):
+    words = []
+    for i in xrange(c.size):
+        words.append(c.strs[i].decode(encoding))
+    res = rt.filterCorpus(words)
+    c.size = len(res)
+    c.strs = to_cstring_array(res)
+
 
     

@@ -15,6 +15,7 @@ main: main.o caller.o
 clean:
 	rm -f *.o
 	rm -f main
+	rm -f sink
 
 cythonize:
 	python3 setup.py build_ext --inplace

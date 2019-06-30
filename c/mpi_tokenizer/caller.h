@@ -5,8 +5,8 @@
 
 struct Corpus;
 
-/* "caller.pyx":7
- * from libc.string cimport strcmp
+/* "caller.pyx":9
+ * encoding = "utf-8"
  * 
  * cdef public struct Corpus:             # <<<<<<<<<<<<<<
  *     int size
@@ -33,6 +33,7 @@ struct Corpus {
 
 __PYX_EXTERN_C int greeting(int);
 __PYX_EXTERN_C void fillCorpus(char *, struct Corpus *);
+__PYX_EXTERN_C void filter(struct Corpus *);
 
 #endif /* !__PYX_HAVE_API__caller */
 
