@@ -5,7 +5,7 @@
 
 #include "caller.h"
 
-#define FILE_NAME "shakespeare"
+#define FILE_NAME "roosevelt"
 #define DESTINATION_FILE "sink"
 
 // This program only works with text that has utf-8 characters
@@ -35,11 +35,10 @@ int main(int arc, char** argv) {
     // some business starting up the python environment
     int err_caller = PyImport_AppendInittab("caller", PyInit_caller);
     Py_Initialize();
-    PyRun_SimpleString("import sys\nsys.path.insert(0,'/usr/local/lib/python3.5/dist-packages/numpy/core/include/')\nsys.path.insert(1,'')");
+    PyRun_SimpleString("import sys\nsys.path.insert(0,'')");
     PyObject* caller_module = PyImport_ImportModule("caller");
     
     // MPI logic below
-    int number;
     if (world_rank == 0) {
 
         // process 0 is supposed to read text off the internet
@@ -88,6 +87,8 @@ int main(int arc, char** argv) {
 
     } else if (world_rank == 2) {
 
+        // this node will receive the words from node 1 and then filter out the stopwords
+
         int size;
         int word_len;
         char * word;
@@ -124,6 +125,8 @@ int main(int arc, char** argv) {
 
     } else if (world_rank == 3) {
 
+        // this node will receive the filtered list of words and then print them out to the sink file, which it creates
+
         int size;
         int word_len;
         char * word;
@@ -148,13 +151,14 @@ int main(int arc, char** argv) {
         FILE *fptr;
         fptr = fopen(DESTINATION_FILE, "w");
 
+        // write to the file
         if(fptr == NULL) {
             printf("could not open the sink\n");
             exit(1);
         }
 
         for(int i = 0; i < size; i++) {
-            fprintf(fptr, "%s ", c->strs[i]);
+            fprintf(fptr, "%s \n", c->strs[i]);
         }
 
         fclose(fptr);
