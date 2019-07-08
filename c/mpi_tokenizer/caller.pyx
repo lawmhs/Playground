@@ -1,5 +1,4 @@
 import readtext as rt
-import numpy as np
 
 from libc.stdlib cimport malloc, free
 from libc.string cimport strcmp

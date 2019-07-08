@@ -1,6 +1,6 @@
 MPICC=mpicc
 LIBB = python3.6m
-INCLUDES = /usr/include/mpich/ -I/usr/include/python3.6/ -I/usr/local/lib/python3.5/dist-packages/numpy/core/include/
+INCLUDES = /usr/include/mpich/ -I/usr/include/python3.6/
 CFLAGS += -I$(INCLUDES)
 LDFLAGS += -l$(LIBB)
 

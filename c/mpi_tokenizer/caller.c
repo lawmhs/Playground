@@ -822,7 +822,7 @@ static const char *__pyx_f[] = {
 /*--- Type declarations ---*/
 struct Corpus;
 
-/* "caller.pyx":9
+/* "caller.pyx":8
  * encoding = "utf-8"
  * 
  * cdef public struct Corpus:             # <<<<<<<<<<<<<<
@@ -1160,12 +1160,10 @@ int __pyx_module_is_main_caller = 0;
 /* Implementation of 'caller' */
 static PyObject *__pyx_builtin_xrange;
 static PyObject *__pyx_builtin_print;
-static const char __pyx_k_np[] = "np";
 static const char __pyx_k_rt[] = "rt";
 static const char __pyx_k_main[] = "__main__";
 static const char __pyx_k_name[] = "__name__";
 static const char __pyx_k_test[] = "__test__";
-static const char __pyx_k_numpy[] = "numpy";
 static const char __pyx_k_print[] = "print";
 static const char __pyx_k_range[] = "range";
 static const char __pyx_k_utf_8[] = "utf-8";
@@ -1188,8 +1186,6 @@ static PyObject *__pyx_n_s_filterCorpus;
 static PyObject *__pyx_n_s_import;
 static PyObject *__pyx_n_s_main;
 static PyObject *__pyx_n_s_name;
-static PyObject *__pyx_n_s_np;
-static PyObject *__pyx_n_s_numpy;
 static PyObject *__pyx_n_s_print;
 static PyObject *__pyx_n_s_range;
 static PyObject *__pyx_n_s_readtext;
@@ -1200,7 +1196,7 @@ static PyObject *__pyx_kp_u_utf_8;
 static PyObject *__pyx_n_s_xrange;
 /* Late includes */
 
-/* "caller.pyx":17
+/* "caller.pyx":16
  * 
  * ## convenient function found on stack overflow: https://stackoverflow.com/questions/17511309/fast-string-array-cython
  * cdef char ** to_cstring_array(list_str):             # <<<<<<<<<<<<<<
@@ -1219,42 +1215,42 @@ static char **__pyx_f_6caller_to_cstring_array(PyObject *__pyx_v_list_str) {
   PyObject *__pyx_t_4 = NULL;
   __Pyx_RefNannySetupContext("to_cstring_array", 0);
 
-  /* "caller.pyx":18
+  /* "caller.pyx":17
  * ## convenient function found on stack overflow: https://stackoverflow.com/questions/17511309/fast-string-array-cython
  * cdef char ** to_cstring_array(list_str):
  *     cdef char ** ret = <char **>malloc(len(list_str) * sizeof(char *))             # <<<<<<<<<<<<<<
  *     for i in xrange(len(list_str)):
  *         ret[i] = PyUnicode_AsUTF8(list_str[i])
  */
-  __pyx_t_1 = PyObject_Length(__pyx_v_list_str); if (unlikely(__pyx_t_1 == ((Py_ssize_t)-1))) __PYX_ERR(0, 18, __pyx_L1_error)
+  __pyx_t_1 = PyObject_Length(__pyx_v_list_str); if (unlikely(__pyx_t_1 == ((Py_ssize_t)-1))) __PYX_ERR(0, 17, __pyx_L1_error)
   __pyx_v_ret = ((char **)malloc((__pyx_t_1 * (sizeof(char *)))));
 
-  /* "caller.pyx":19
+  /* "caller.pyx":18
  * cdef char ** to_cstring_array(list_str):
  *     cdef char ** ret = <char **>malloc(len(list_str) * sizeof(char *))
  *     for i in xrange(len(list_str)):             # <<<<<<<<<<<<<<
  *         ret[i] = PyUnicode_AsUTF8(list_str[i])
  *     return ret
  */
-  __pyx_t_1 = PyObject_Length(__pyx_v_list_str); if (unlikely(__pyx_t_1 == ((Py_ssize_t)-1))) __PYX_ERR(0, 19, __pyx_L1_error)
+  __pyx_t_1 = PyObject_Length(__pyx_v_list_str); if (unlikely(__pyx_t_1 == ((Py_ssize_t)-1))) __PYX_ERR(0, 18, __pyx_L1_error)
   __pyx_t_2 = __pyx_t_1;
   for (__pyx_t_3 = 0; __pyx_t_3 < __pyx_t_2; __pyx_t_3+=1) {
     __pyx_v_i = __pyx_t_3;
 
-    /* "caller.pyx":20
+    /* "caller.pyx":19
  *     cdef char ** ret = <char **>malloc(len(list_str) * sizeof(char *))
  *     for i in xrange(len(list_str)):
  *         ret[i] = PyUnicode_AsUTF8(list_str[i])             # <<<<<<<<<<<<<<
  *     return ret
  * 
  */
-    __pyx_t_4 = __Pyx_GetItemInt(__pyx_v_list_str, __pyx_v_i, Py_ssize_t, 1, PyInt_FromSsize_t, 0, 1, 1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 20, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_GetItemInt(__pyx_v_list_str, __pyx_v_i, Py_ssize_t, 1, PyInt_FromSsize_t, 0, 1, 1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 19, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     (__pyx_v_ret[__pyx_v_i]) = PyUnicode_AsUTF8(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   }
 
-  /* "caller.pyx":21
+  /* "caller.pyx":20
  *     for i in xrange(len(list_str)):
  *         ret[i] = PyUnicode_AsUTF8(list_str[i])
  *     return ret             # <<<<<<<<<<<<<<
@@ -1264,7 +1260,7 @@ static char **__pyx_f_6caller_to_cstring_array(PyObject *__pyx_v_list_str) {
   __pyx_r = __pyx_v_ret;
   goto __pyx_L0;
 
-  /* "caller.pyx":17
+  /* "caller.pyx":16
  * 
  * ## convenient function found on stack overflow: https://stackoverflow.com/questions/17511309/fast-string-array-cython
  * cdef char ** to_cstring_array(list_str):             # <<<<<<<<<<<<<<
@@ -1282,7 +1278,7 @@ static char **__pyx_f_6caller_to_cstring_array(PyObject *__pyx_v_list_str) {
   return __pyx_r;
 }
 
-/* "caller.pyx":24
+/* "caller.pyx":23
  * 
  * # test function to make sure everything is working
  * cdef public int greeting(int number):             # <<<<<<<<<<<<<<
@@ -1297,7 +1293,7 @@ int greeting(int __pyx_v_number) {
   PyObject *__pyx_t_2 = NULL;
   __Pyx_RefNannySetupContext("greeting", 0);
 
-  /* "caller.pyx":25
+  /* "caller.pyx":24
  * # test function to make sure everything is working
  * cdef public int greeting(int number):
  *     number = number + 1             # <<<<<<<<<<<<<<
@@ -1306,27 +1302,27 @@ int greeting(int __pyx_v_number) {
  */
   __pyx_v_number = (__pyx_v_number + 1);
 
-  /* "caller.pyx":26
+  /* "caller.pyx":25
  * cdef public int greeting(int number):
  *     number = number + 1
  *     print("Hello! The current value of number is " + str(number))             # <<<<<<<<<<<<<<
  *     return number
  * 
  */
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_number); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 26, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_number); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 25, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyObject_CallOneArg(((PyObject *)(&PyUnicode_Type)), __pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 26, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_CallOneArg(((PyObject *)(&PyUnicode_Type)), __pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 25, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Hello_The_current_value_of_numbe, __pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 26, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyUnicode_Concat(__pyx_kp_u_Hello_The_current_value_of_numbe, __pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 25, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 26, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 25, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "caller.pyx":27
+  /* "caller.pyx":26
  *     number = number + 1
  *     print("Hello! The current value of number is " + str(number))
  *     return number             # <<<<<<<<<<<<<<
@@ -1336,7 +1332,7 @@ int greeting(int __pyx_v_number) {
   __pyx_r = __pyx_v_number;
   goto __pyx_L0;
 
-  /* "caller.pyx":24
+  /* "caller.pyx":23
  * 
  * # test function to make sure everything is working
  * cdef public int greeting(int number):             # <<<<<<<<<<<<<<
@@ -1355,7 +1351,7 @@ int greeting(int __pyx_v_number) {
   return __pyx_r;
 }
 
-/* "caller.pyx":30
+/* "caller.pyx":29
  * 
  * # This function will take in a file name
  * cdef public void fillCorpus(char * file_name, Corpus *c):             # <<<<<<<<<<<<<<
@@ -1376,19 +1372,19 @@ void fillCorpus(char *__pyx_v_file_name, struct Corpus *__pyx_v_c) {
   Py_ssize_t __pyx_t_7;
   __Pyx_RefNannySetupContext("fillCorpus", 0);
 
-  /* "caller.pyx":31
+  /* "caller.pyx":30
  * # This function will take in a file name
  * cdef public void fillCorpus(char * file_name, Corpus *c):
  *     f = file_name.decode(encoding)             # <<<<<<<<<<<<<<
  *     print("The file passed in is " + f)
  *     strings = rt.tokenize(file_name.decode(encoding))
  */
-  __pyx_t_2 = __Pyx_PyBytes_FromString(__pyx_v_file_name); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 31, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyBytes_FromString(__pyx_v_file_name); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 30, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_decode); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 31, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_decode); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 30, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_encoding); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 31, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_encoding); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 30, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_4 = NULL;
   if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_3))) {
@@ -1403,44 +1399,44 @@ void fillCorpus(char *__pyx_v_file_name, struct Corpus *__pyx_v_c) {
   __pyx_t_1 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_4, __pyx_t_2) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_2);
   __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 31, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 30, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_v_f = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "caller.pyx":32
+  /* "caller.pyx":31
  * cdef public void fillCorpus(char * file_name, Corpus *c):
  *     f = file_name.decode(encoding)
  *     print("The file passed in is " + f)             # <<<<<<<<<<<<<<
  *     strings = rt.tokenize(file_name.decode(encoding))
  * 
  */
-  __pyx_t_1 = PyNumber_Add(__pyx_kp_u_The_file_passed_in_is, __pyx_v_f); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 32, __pyx_L1_error)
+  __pyx_t_1 = PyNumber_Add(__pyx_kp_u_The_file_passed_in_is, __pyx_v_f); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 31, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 32, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_builtin_print, __pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 31, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "caller.pyx":33
+  /* "caller.pyx":32
  *     f = file_name.decode(encoding)
  *     print("The file passed in is " + f)
  *     strings = rt.tokenize(file_name.decode(encoding))             # <<<<<<<<<<<<<<
  * 
  *     # now we want to fill the corpus structure passed in:
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_rt); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 33, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_rt); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 32, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_tokenize); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 33, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_tokenize); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 32, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_4 = __Pyx_PyBytes_FromString(__pyx_v_file_name); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 33, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyBytes_FromString(__pyx_v_file_name); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 32, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_decode); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 33, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_decode); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 32, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_encoding); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 33, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_encoding); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 32, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_t_6 = NULL;
   if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_5))) {
@@ -1455,7 +1451,7 @@ void fillCorpus(char *__pyx_v_file_name, struct Corpus *__pyx_v_c) {
   __pyx_t_1 = (__pyx_t_6) ? __Pyx_PyObject_Call2Args(__pyx_t_5, __pyx_t_6, __pyx_t_4) : __Pyx_PyObject_CallOneArg(__pyx_t_5, __pyx_t_4);
   __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 33, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 32, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   __pyx_t_5 = NULL;
@@ -1471,23 +1467,23 @@ void fillCorpus(char *__pyx_v_file_name, struct Corpus *__pyx_v_c) {
   __pyx_t_3 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_2, __pyx_t_5, __pyx_t_1) : __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_t_1);
   __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 33, __pyx_L1_error)
+  if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 32, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_v_strings = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* "caller.pyx":36
+  /* "caller.pyx":35
  * 
  *     # now we want to fill the corpus structure passed in:
  *     c.size = len(strings)             # <<<<<<<<<<<<<<
  *     c.strs = to_cstring_array(strings)
  * 
  */
-  __pyx_t_7 = PyObject_Length(__pyx_v_strings); if (unlikely(__pyx_t_7 == ((Py_ssize_t)-1))) __PYX_ERR(0, 36, __pyx_L1_error)
+  __pyx_t_7 = PyObject_Length(__pyx_v_strings); if (unlikely(__pyx_t_7 == ((Py_ssize_t)-1))) __PYX_ERR(0, 35, __pyx_L1_error)
   __pyx_v_c->size = __pyx_t_7;
 
-  /* "caller.pyx":37
+  /* "caller.pyx":36
  *     # now we want to fill the corpus structure passed in:
  *     c.size = len(strings)
  *     c.strs = to_cstring_array(strings)             # <<<<<<<<<<<<<<
@@ -1496,7 +1492,7 @@ void fillCorpus(char *__pyx_v_file_name, struct Corpus *__pyx_v_c) {
  */
   __pyx_v_c->strs = __pyx_f_6caller_to_cstring_array(__pyx_v_strings);
 
-  /* "caller.pyx":30
+  /* "caller.pyx":29
  * 
  * # This function will take in a file name
  * cdef public void fillCorpus(char * file_name, Corpus *c):             # <<<<<<<<<<<<<<
@@ -1520,7 +1516,7 @@ void fillCorpus(char *__pyx_v_file_name, struct Corpus *__pyx_v_c) {
   __Pyx_RefNannyFinishContext();
 }
 
-/* "caller.pyx":41
+/* "caller.pyx":40
  * # This function will filter out the strings in the corpus's str field
  * # and also remove the punctuation
  * cdef public void filter(Corpus *c):             # <<<<<<<<<<<<<<
@@ -1544,19 +1540,19 @@ void filter(struct Corpus *__pyx_v_c) {
   Py_ssize_t __pyx_t_9;
   __Pyx_RefNannySetupContext("filter", 0);
 
-  /* "caller.pyx":42
+  /* "caller.pyx":41
  * # and also remove the punctuation
  * cdef public void filter(Corpus *c):
  *     words = []             # <<<<<<<<<<<<<<
  *     for i in xrange(c.size):
  *         words.append(c.strs[i].decode(encoding))
  */
-  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 42, __pyx_L1_error)
+  __pyx_t_1 = PyList_New(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 41, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v_words = ((PyObject*)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "caller.pyx":43
+  /* "caller.pyx":42
  * cdef public void filter(Corpus *c):
  *     words = []
  *     for i in xrange(c.size):             # <<<<<<<<<<<<<<
@@ -1568,19 +1564,19 @@ void filter(struct Corpus *__pyx_v_c) {
   for (__pyx_t_4 = 0; __pyx_t_4 < __pyx_t_3; __pyx_t_4+=1) {
     __pyx_v_i = __pyx_t_4;
 
-    /* "caller.pyx":44
+    /* "caller.pyx":43
  *     words = []
  *     for i in xrange(c.size):
  *         words.append(c.strs[i].decode(encoding))             # <<<<<<<<<<<<<<
  *     res = rt.filterCorpus(words)
  *     c.size = len(res)
  */
-    __pyx_t_5 = __Pyx_PyBytes_FromString((__pyx_v_c->strs[__pyx_v_i])); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 44, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyBytes_FromString((__pyx_v_c->strs[__pyx_v_i])); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 43, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_decode); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 44, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_decode); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 43, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_encoding); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 44, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_encoding); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 43, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __pyx_t_7 = NULL;
     if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_6))) {
@@ -1595,23 +1591,23 @@ void filter(struct Corpus *__pyx_v_c) {
     __pyx_t_1 = (__pyx_t_7) ? __Pyx_PyObject_Call2Args(__pyx_t_6, __pyx_t_7, __pyx_t_5) : __Pyx_PyObject_CallOneArg(__pyx_t_6, __pyx_t_5);
     __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 44, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 43, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-    __pyx_t_8 = __Pyx_PyList_Append(__pyx_v_words, __pyx_t_1); if (unlikely(__pyx_t_8 == ((int)-1))) __PYX_ERR(0, 44, __pyx_L1_error)
+    __pyx_t_8 = __Pyx_PyList_Append(__pyx_v_words, __pyx_t_1); if (unlikely(__pyx_t_8 == ((int)-1))) __PYX_ERR(0, 43, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   }
 
-  /* "caller.pyx":45
+  /* "caller.pyx":44
  *     for i in xrange(c.size):
  *         words.append(c.strs[i].decode(encoding))
  *     res = rt.filterCorpus(words)             # <<<<<<<<<<<<<<
  *     c.size = len(res)
  *     c.strs = to_cstring_array(res)
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_rt); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 45, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_rt); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 44, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_filterCorpus); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 45, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_filterCorpus); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 44, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __pyx_t_6 = NULL;
@@ -1626,23 +1622,23 @@ void filter(struct Corpus *__pyx_v_c) {
   }
   __pyx_t_1 = (__pyx_t_6) ? __Pyx_PyObject_Call2Args(__pyx_t_5, __pyx_t_6, __pyx_v_words) : __Pyx_PyObject_CallOneArg(__pyx_t_5, __pyx_v_words);
   __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 45, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 44, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   __pyx_v_res = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "caller.pyx":46
+  /* "caller.pyx":45
  *         words.append(c.strs[i].decode(encoding))
  *     res = rt.filterCorpus(words)
  *     c.size = len(res)             # <<<<<<<<<<<<<<
  *     c.strs = to_cstring_array(res)
  * 
  */
-  __pyx_t_9 = PyObject_Length(__pyx_v_res); if (unlikely(__pyx_t_9 == ((Py_ssize_t)-1))) __PYX_ERR(0, 46, __pyx_L1_error)
+  __pyx_t_9 = PyObject_Length(__pyx_v_res); if (unlikely(__pyx_t_9 == ((Py_ssize_t)-1))) __PYX_ERR(0, 45, __pyx_L1_error)
   __pyx_v_c->size = __pyx_t_9;
 
-  /* "caller.pyx":47
+  /* "caller.pyx":46
  *     res = rt.filterCorpus(words)
  *     c.size = len(res)
  *     c.strs = to_cstring_array(res)             # <<<<<<<<<<<<<<
@@ -1651,7 +1647,7 @@ void filter(struct Corpus *__pyx_v_c) {
  */
   __pyx_v_c->strs = __pyx_f_6caller_to_cstring_array(__pyx_v_res);
 
-  /* "caller.pyx":41
+  /* "caller.pyx":40
  * # This function will filter out the strings in the corpus's str field
  * # and also remove the punctuation
  * cdef public void filter(Corpus *c):             # <<<<<<<<<<<<<<
@@ -1728,8 +1724,6 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_import, __pyx_k_import, sizeof(__pyx_k_import), 0, 0, 1, 1},
   {&__pyx_n_s_main, __pyx_k_main, sizeof(__pyx_k_main), 0, 0, 1, 1},
   {&__pyx_n_s_name, __pyx_k_name, sizeof(__pyx_k_name), 0, 0, 1, 1},
-  {&__pyx_n_s_np, __pyx_k_np, sizeof(__pyx_k_np), 0, 0, 1, 1},
-  {&__pyx_n_s_numpy, __pyx_k_numpy, sizeof(__pyx_k_numpy), 0, 0, 1, 1},
   {&__pyx_n_s_print, __pyx_k_print, sizeof(__pyx_k_print), 0, 0, 1, 1},
   {&__pyx_n_s_range, __pyx_k_range, sizeof(__pyx_k_range), 0, 0, 1, 1},
   {&__pyx_n_s_readtext, __pyx_k_readtext, sizeof(__pyx_k_readtext), 0, 0, 1, 1},
@@ -1742,11 +1736,11 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
 };
 static CYTHON_SMALL_CODE int __Pyx_InitCachedBuiltins(void) {
   #if PY_MAJOR_VERSION >= 3
-  __pyx_builtin_xrange = __Pyx_GetBuiltinName(__pyx_n_s_range); if (!__pyx_builtin_xrange) __PYX_ERR(0, 19, __pyx_L1_error)
+  __pyx_builtin_xrange = __Pyx_GetBuiltinName(__pyx_n_s_range); if (!__pyx_builtin_xrange) __PYX_ERR(0, 18, __pyx_L1_error)
   #else
-  __pyx_builtin_xrange = __Pyx_GetBuiltinName(__pyx_n_s_xrange); if (!__pyx_builtin_xrange) __PYX_ERR(0, 19, __pyx_L1_error)
+  __pyx_builtin_xrange = __Pyx_GetBuiltinName(__pyx_n_s_xrange); if (!__pyx_builtin_xrange) __PYX_ERR(0, 18, __pyx_L1_error)
   #endif
-  __pyx_builtin_print = __Pyx_GetBuiltinName(__pyx_n_s_print); if (!__pyx_builtin_print) __PYX_ERR(0, 26, __pyx_L1_error)
+  __pyx_builtin_print = __Pyx_GetBuiltinName(__pyx_n_s_print); if (!__pyx_builtin_print) __PYX_ERR(0, 25, __pyx_L1_error)
   return 0;
   __pyx_L1_error:;
   return -1;
@@ -2029,38 +2023,27 @@ if (!__Pyx_RefNanny) {
 
   /* "caller.pyx":1
  * import readtext as rt             # <<<<<<<<<<<<<<
- * import numpy as np
  * 
+ * from libc.stdlib cimport malloc, free
  */
   __pyx_t_1 = __Pyx_Import(__pyx_n_s_readtext, 0, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_rt, __pyx_t_1) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "caller.pyx":2
- * import readtext as rt
- * import numpy as np             # <<<<<<<<<<<<<<
- * 
- * from libc.stdlib cimport malloc, free
- */
-  __pyx_t_1 = __Pyx_Import(__pyx_n_s_numpy, 0, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 2, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_np, __pyx_t_1) < 0) __PYX_ERR(0, 2, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-
-  /* "caller.pyx":7
+  /* "caller.pyx":6
  * from libc.string cimport strcmp
  * 
  * encoding = "utf-8"             # <<<<<<<<<<<<<<
  * 
  * cdef public struct Corpus:
  */
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_encoding, __pyx_kp_u_utf_8) < 0) __PYX_ERR(0, 7, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_encoding, __pyx_kp_u_utf_8) < 0) __PYX_ERR(0, 6, __pyx_L1_error)
 
   /* "caller.pyx":1
  * import readtext as rt             # <<<<<<<<<<<<<<
- * import numpy as np
  * 
+ * from libc.stdlib cimport malloc, free
  */
   __pyx_t_1 = __Pyx_PyDict_NewPresized(0); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);

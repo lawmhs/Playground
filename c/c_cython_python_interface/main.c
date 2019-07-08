@@ -87,23 +87,38 @@ int main(int argc, char** argv) {
     PyObject* helloworld_module = PyImport_ImportModule("helloworld");
     // PyRun_SimpleString("print('hello world')");
     // Py_Finalize();
-    PyInit_caller();
+    //PyInit_caller();
     printf("\nEntering into Python / Cython code now\n");
-    int x = greeting(100);
-    printf("After the greeting, the integer we've passed to python has now become %d\n", x);
+    int num = greeting(100);
+    printf("After the greeting, the integer we've passed to python has now become %d\n", num);
     
-    printf("\nwe're back in C now\n");
     struct Animal * a = malloc(sizeof ( struct Animal));
     a->age = 10;
     a->size = 100;
     a->name = "lion";
+    printf("\nNow testing passing structs......\n");
     animal_greeting(a);
+
     free(a);
 
+    printf("\nNow we are returning back to C\n");
     Node * n = malloc(sizeof (Node));
     initNode(n, 0, 0, 0);
     printf("the position of node n is (%d, %d) and its value is %d\n", n->x, n->y, n->val);
     free(n);
+
+    // okay now let's try doing some integer array stuff and try to plot it
+    int x[100];
+    for(int i = 0; i < 100; i++) {
+        x[i] = i;
+    }
+    
+    int y[100];
+    for(int i = 0; i < 100; i++) {
+        y[i] = rand() % 100;
+    }
+
+    graph(x, 100, y, 100);
 
     Py_Finalize();
 

@@ -5,7 +5,7 @@
 
 struct Corpus;
 
-/* "caller.pyx":9
+/* "caller.pyx":8
  * encoding = "utf-8"
  * 
  * cdef public struct Corpus:             # <<<<<<<<<<<<<<

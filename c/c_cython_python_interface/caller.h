@@ -6,7 +6,7 @@
 struct Animal;
 
 /* "caller.pyx":5
- * import numpy
+ * import numpy as np
  * 
  * cdef public struct Animal:             # <<<<<<<<<<<<<<
  *     int age
@@ -35,6 +35,7 @@ struct Animal {
 __PYX_EXTERN_C int greeting(int);
 __PYX_EXTERN_C void animal_greeting(struct Animal *);
 __PYX_EXTERN_C void test_cdef(void);
+__PYX_EXTERN_C void graph(int *, int, int *, int);
 
 #endif /* !__PYX_HAVE_API__caller */
 
